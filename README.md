@@ -7,17 +7,6 @@ description: |
     - Generate summaries per department, including a ranking of top sellers.
     - Export a CSV report with complete statistics.
 
-file_structure: |
-  project/
-  │
-  ├─ data/
-  │   ├─ input_data.csv         # CSV containing employee records
-  │   └─ reports/               # Folder where generated reports are saved
-  │
-  ├─ generate_report.py         # Main script
-  ├─ test_generate_report.py    # Basic test script
-  └─ README.md
-
 usage:
   interactive: |
     Run the script without arguments (interactive mode):
